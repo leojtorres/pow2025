@@ -1,0 +1,19 @@
+body {
+    background-color: #f8f9fa;
+}
+.container {
+    max-width: 800px;
+    margin-top: 40px;
+}
+.map-container {
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.form-control:invalid {
+    border-color: #dc3545;
+}
+.form-control:valid {
+    border-color: #198754;
+}
